@@ -4,21 +4,21 @@
 
 ---
 
-## 💡 Features
+## Features
 
-- ✅ **Anonymous posting system**  
+- **Anonymous posting system**  
   Share thoughts without needing an account.
 
-- ✅ **Empathetic reply threads**  
+- **Empathetic reply threads**  
   Respond with kindness to those reaching out.
 
-- ✅ **Sentiment tagging system**  
+- **Sentiment tagging system**  
   Choose from moods like *"I feel lost"*, *"I need motivation"*, etc.
 
-- ✅ **Emotion-based color gradients**  
+- **Emotion-based color gradients**  
   Visual cues based on the post’s emotional tone.
 
-- ✅ **Optional login (WIP)**  
+- **Optional login (WIP)**  
   Save your replies and follow your journey of kindness.
 
 ---
@@ -36,11 +36,3 @@
 
 > _To be added after implementation. Include UI of post feed, emotion gradients, and reply threads._
 
----
-
-## 🛠️ Installation
-
-1. Clone the repo  
-   ```bash
-   git clone https://github.com/yourusername/ripple.git
-   cd ripple
