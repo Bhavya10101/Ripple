@@ -1,38 +1,65 @@
-# 🌊 Ripple – A Peer Support Web Platform for Students
+# 🌊 Ripple - A Peer Support Web Platform for Students
 
-**Ripple** is a full-stack web application designed to foster emotional well-being and peer support among students. Many students face stress, loneliness, or academic pressure but hesitate to reach out due to fear of judgment or lack of access to professional help. Ripple offers a safe, anonymous space where words can heal — one ripple at a time.
-
----
+## Goal
+To build a full-stack web application designed to foster emotional well-being and peer support among students. Many students face stress, loneliness, or academic pressure but hesitate to reach out due to fear of judgment or lack of access to professional help. Ripple offers a safe, anonymous space where words can heal — one ripple at a time.
 
 ## Features
 
-- **Anonymous posting system**  
-  Share thoughts without needing an account.
+* **Anonymous Posting System:** Users can share their thoughts and feelings without revealing their identity.
+* **Peer-to-Peer Support:** Students can offer and receive encouragement, advice, and understanding from their peers.
+* **Geo-Driven Event Map (Planned):** Visualize support groups, workshops, or mental health resources in a geographical context. (Might require external APIs like Google Maps later).
+* **Discussion Threads:** Engage in organized conversations on specific topics or challenges.
+* **Visual Activism Walls:** A creative space for users to express solidarity and raise awareness.
+* **Impact Trackers:** Tools to help users visualize the positive effects of their engagement and support.
+* **User Authentication (Planned):** Secure signup, login, and profile management for accessing personalized features.
 
-- **Empathetic reply threads**  
-  Respond with kindness to those reaching out.
+## Technologies Used
 
-- **Sentiment tagging system**  
-  Choose from moods like *"I feel lost"*, *"I need motivation"*, etc.
+* **Backend:** Node.js, Express.js
+* **Frontend:** HTML, CSS, JavaScript (Future consideration: React/Vue/Angular)
+* **Database:** (Will decide later, e.g., MongoDB, PostgreSQL, SQLite)
 
-- **Emotion-based color gradients**  
-  Visual cues based on the post’s emotional tone.
+## Setup and Running
 
-- **Optional login (WIP)**  
-  Save your replies and follow your journey of kindness.
+### Prerequisites
+* Node.js (LTS version recommended) and npm (Node Package Manager)
+* Git
 
----
+### Getting Started
 
-## 🧠 Tech Stack
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/Bhavya10101/Ripple.git](https://github.com/Bhavya10101/Ripple.git)
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd Ripple
+    ```
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js, Express  
-- **Database:** MongoDB  
-- **Hosting:** Netlify (frontend), Render/Heroku (backend) *(to be updated)*
+### Backend Setup
 
----
+1.  **Navigate into the backend folder:**
+    ```bash
+    cd backend
+    ```
+2.  **Install backend dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the backend server:**
+    ```bash
+    node server.js
+    ```
+    (Keep this terminal window open while working on the frontend)
 
-## 📸 Screenshots
+### Frontend Setup
 
-> _To be added after implementation. Include UI of post feed, emotion gradients, and reply threads._
+1.  **Navigate into the frontend folder (in a new terminal tab/window):**
+    ```bash
+    cd frontend
+    ```
+2.  **Open `index.html` in your browser:**
+    (You can simply double-click `frontend/index.html` in your file explorer, or drag it into your browser.)
 
+### Usage
+Once both the backend server is running and the frontend `index.html` is open in your browser, click the "Test Backend" button on the webpage. You should see a response from your backend!
