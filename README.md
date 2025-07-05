@@ -7,10 +7,8 @@ To build a full-stack web application designed to foster emotional well-being an
 
 * **Anonymous Posting System:** Users can share their thoughts and feelings without revealing their identity.
 * **Peer-to-Peer Support:** Students can offer and receive encouragement, advice, and understanding from their peers.
-* **Geo-Driven Event Map (Planned):** Visualize support groups, workshops, or mental health resources in a geographical context. (Might require external APIs like Google Maps later).
 * **Discussion Threads:** Engage in organized conversations on specific topics or challenges.
 * **Visual Activism Walls:** A creative space for users to express solidarity and raise awareness.
-* **Impact Trackers:** Tools to help users visualize the positive effects of their engagement and support.
 * **User Authentication (Planned):** Secure signup, login, and profile management for accessing personalized features.
 
 ## Technologies Used
